@@ -4,7 +4,78 @@
 <head>
     <title>Styling Exercise</title>
     <style>
-        /* Your CSS code goes here */
+       * {
+        margin: 0;
+        padding: 0;
+       }
+        header {
+            background-color: #3a5a40;
+            border: 2px solid black;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            padding: 2rem;
+
+        }
+
+        nav a {
+          text-decoration: none;
+          color: antiquewhite;
+        }
+
+        nav a:hover {
+            font-size: 20px;
+            color: #fb5607;
+            border-bottom:2px solid #fb5607;
+        }
+
+        main {
+            background-color: #2a9d8f;
+           border: 2px solid black;
+           padding-top: 8rem;
+           padding-bottom: 5.2rem;
+           padding-left: 1rem;
+           padding-right: 1rem;
+        }
+
+        #first-item {
+            border: 2px solid black;
+            width: 5%;
+            color: #fca311;
+        }
+
+        footer {
+            background-color: #219ebc;
+            border: 2px solid black;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            padding-left: 2rem;
+        }
+
+        h1 {
+            color: white;
+            margin-top: -1rem;
+            margin-bottom: 1rem;
+        }
+
+        h2, .main>ul, main>p {
+           position: relative;
+           bottom: 7rem;
+        }
+
+        li {
+            font-size: large;
+        }
+
+        main p:hover::first-letter {
+            font-size: 2rem;
+            color: #fb5607;
+        }
+
+        main p {
+            padding-top: 1rem;
+            text-align: justify;
+            font-size: 1.2rem;
+        }
     </style>
 </head>
 
